@@ -1,5 +1,5 @@
-import cloneDeep = require('lodash.clonedeep');
-import isEqual = require('lodash.isequal');
+import cloneDeep from 'lodash.clonedeep';
+import isEqual from 'lodash.isequal';
 
 interface AttributeMap {
   [key: string]: unknown;

@@ -1,6 +1,6 @@
-import * as diff from 'fast-diff';
-import cloneDeep = require('lodash.clonedeep');
-import isEqual = require('lodash.isequal');
+import diff from 'fast-diff';
+import cloneDeep from 'lodash.clonedeep';
+import isEqual from 'lodash.isequal';
 import AttributeMap from './AttributeMap';
 import Op from './Op';
 import OpIterator from './OpIterator';
